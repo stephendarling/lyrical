@@ -29,11 +29,21 @@ class SongCreate extends Component {
 
     return (
       <div>
-        <Link to="/">Back</Link>
+        <div className="row">
+          <div className="col s12">
+            <Link
+              to="/"
+              className="btn-floating btn-large red left"
+            >
+              <i className="material-icons">navigate_before</i>
+            </Link>
+          </div>
+        </div>
         <h3>Create a New Song</h3>
         <form onSubmit={this.onSubmit.bind(this)}>
           <label>Song Title:</label>
           <input 
+            autoFocus
             onChange={ event => this.setState({ title: event.target.value })}
             value={this.state.title}
           />
