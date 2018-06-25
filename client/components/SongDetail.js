@@ -15,12 +15,12 @@ class SongDetail extends Component {
       <div>
         <div className="row">
           <div className="col s12">
-          <Link
-            to="/"
-            className="btn-floating btn-large red left"
-          >
-            <i className="material-icons">navigate_before</i>
-          </Link>
+            <Link
+              to="/"
+              className="btn-floating btn-large red left"
+            >
+              <i className="material-icons">navigate_before</i>
+            </Link>
           </div>
         </div>
         <div>
